@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook Checkpoints
+# These are temporary files created by Jupyter
+.ipynb_checkpoints
+
+# Virtual Environment
+# Never upload your virtual environment folder
+venv/
+env/
+.venv/
+.env
+
+# Large data files
+# GitHub has a 100MB file limit. Add your large CSVs here.
+*.csv
+*.data
+
+# Secret files
+# Any file containing passwords, API keys, or other secrets
+*.key
+*.env
+credentials.json
+
+# OS-specific files
+.DS_Store # macOS
+Thumbs.db # Windows
